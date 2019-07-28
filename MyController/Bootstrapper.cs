@@ -19,7 +19,8 @@ namespace MyController
         {
             var container = new UnityContainer();
 
-            container.RegisterType<IDisplayEmployee, DisplayEmployee>();         
+            container.RegisterType<IDisplayEmployee, DisplayEmplyee2>();
+            container.RegisterType<IDisplayEmployee, DisplayEmployee>();
 
             return container;
         }

@@ -1,15 +1,15 @@
-﻿using System;
+﻿using MyModels.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MyModels.Model;
 
 namespace MyBusinessDomain.BusinessDomain
 {
-    public class DisplayEmployee : IDisplayEmployee
+    public class DisplayEmplyee2 : IDisplayEmployee
     {
-        public DisplayEmployee()
+        public DisplayEmplyee2()
         {
 
         }
@@ -17,9 +17,10 @@ namespace MyBusinessDomain.BusinessDomain
         public List<EmployeeDetails> ShowEmployeeDetails()
         {
             List<EmployeeDetails> details = new List<EmployeeDetails>();
-            details.Add(new EmployeeDetails { eid = 101, ename = "Yaswanth", salary = 25000.23m });
+            details.Add(new EmployeeDetails { eid = 101, ename = "zzz", salary = 25000.23m });
             details.Add(new EmployeeDetails { eid = 102, ename = "Yash", salary = 852563.23m });
             details.Add(new EmployeeDetails { eid = 103, ename = "Prash", salary = 12559.23m });
+
 
             return details;
         }
@@ -28,6 +29,5 @@ namespace MyBusinessDomain.BusinessDomain
         {
             return "Business Domain is Success";
         }
-
     }
 }

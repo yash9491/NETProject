@@ -8,6 +8,7 @@ using MyModels.Model;
 
 namespace MyController.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public IDisplayEmployee _displayemployee;

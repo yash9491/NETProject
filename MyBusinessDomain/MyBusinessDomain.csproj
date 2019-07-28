@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessDomain\DisplayEmployee.cs" />
+    <Compile Include="BusinessDomain\DisplayEmplyee2.cs" />
     <Compile Include="BusinessDomain\IDisplayEmployee.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
