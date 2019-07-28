@@ -19,6 +19,7 @@ namespace MyBusinessDomain.BusinessDomain
             List<EmployeeDetails> details = new List<EmployeeDetails>();
             details.Add(new EmployeeDetails { eid = 101, ename = "Yaswanth", salary = 25000.23m });
             details.Add(new EmployeeDetails { eid = 102, ename = "Yash", salary = 852563.23m });
+            details.Add(new EmployeeDetails { eid = 103, ename = "Prash", salary = 125569.23m });
             return details;
         }
 
