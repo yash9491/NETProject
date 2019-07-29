@@ -23,7 +23,7 @@ namespace MyController.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "My Home Page";
             return View();
         }
 
