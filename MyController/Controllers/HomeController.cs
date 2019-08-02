@@ -27,7 +27,17 @@ namespace MyController.Controllers
             return View();
         }
 
-        public JsonResult GetEmployeeDetails()
+        [HttpGet]
+        [ActionName("GetEmployees")]
+        public ActionResult GetEmployees()
+        {
+          
+            List<EmployeeDetails> empdata = this._displayemployee.ShowEmployeeDetails();
+            return View(empdata);
+
+        }
+
+        public JsonResult GetEmployeeDetails(int i, string j)
         {
             IDisplayEmployee ds = new DisplayEmployee();
             return Json(this._displayemployee.ShowEmployeeDetails(), JsonRequestBehavior.AllowGet);

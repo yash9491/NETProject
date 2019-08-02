@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDataAccess", "MyDataAcces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyModels", "MyModels\MyModels.csproj", "{CF2E341C-725E-4BA0-8D01-98999053676C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{FA151E88-D991-440B-9ECF-B34E188BD764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,12 +35,16 @@ Global
 		{CF2E341C-725E-4BA0-8D01-98999053676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2E341C-725E-4BA0-8D01-98999053676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2E341C-725E-4BA0-8D01-98999053676C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA151E88-D991-440B-9ECF-B34E188BD764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA151E88-D991-440B-9ECF-B34E188BD764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA151E88-D991-440B-9ECF-B34E188BD764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA151E88-D991-440B-9ECF-B34E188BD764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 		SolutionGuid = {8BB053B0-B261-457F-835C-F72EAC843EB9}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
